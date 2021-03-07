@@ -4,7 +4,7 @@
 
 ```
 module "my-sg" {
-   source      = "git@github.com:stain89/terraform-module-security-group.git"
+  source      = "git@github.com:stain89/terraform-module-security-group.git"
   vpc_id      = "vpc-a27e94ea"
   name        = "test"
   environment = "dev"
